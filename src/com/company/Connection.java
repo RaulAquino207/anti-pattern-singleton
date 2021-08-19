@@ -3,7 +3,7 @@ package com.company;
 public class Connection {
     private Connection connection;
     private String urlConnection;
-    private Integer port = 8080;
+    private Integer port = 3000;
     private Boolean state = false;
 
     private static Connection INSTANCE;
